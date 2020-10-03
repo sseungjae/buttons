@@ -20,4 +20,22 @@ a {
 }
 
 .box {
+  width: 150px;
+  height: 60px;
+  margin: 10px 0;
+  border: 2px solid #c32aa3;
+  position: relative;
+  overflow: hidden;
+}
+
+.box i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: salmon;
+  transform: translate(-50%, -50%);
+}
+
+.box::after {
+  /* content: "FOLLLOW"; */
 }
